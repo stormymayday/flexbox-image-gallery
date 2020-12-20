@@ -8,10 +8,16 @@ h1 {
 	font-family: fantasy;
 	font-size: 3rem;
 	border-bottom: 2px solid pink;
+	box-shadow: 4px #888888;
 }
 
 img {
 	width: 450px;
 	height: 300px;
-	margin: 10px;
+	margin: 15px;
+	transition: all 2s;
+}
+
+img:hover {
+	transform: scale(1.1);
 }
